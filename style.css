@@ -6,7 +6,9 @@ body {
     min-height: 100vh;
 }
 
+/*----GENERAL---*/
 .river-titulo {
+    font-size: 60px;
     font-family: 'Arial', sans-serif;
     color: white;
     text-align: center;
@@ -15,7 +17,28 @@ body {
     border-radius: 15px;
     padding: 10px;
 }
+.tarjeta-link {
+    background: radial-gradient(rgb(255, 0, 0), rgba(0, 0, 0, 0.705) );   
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 50px;
+}
+.tarjeta-link img {
+    width: 40px; 
+    height: 40px;
+}
+.tarjeta-link a:link,
+.tarjeta-link a:visited {
+    text-decoration: none;
+    color: white;
+}
+.tarjeta-link:hover {
+    background-color: gray;
+    transition-duration: 1s;
+}
 
+/*----ITEM COMUN DE PAGINA----*/
 .titulo-item {
     color: red;
     font-family: 'Arial', sans-serif;

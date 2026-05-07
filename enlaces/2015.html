@@ -25,6 +25,46 @@
         <img src="../copa-libertadores.png" width="20" height="20" alt="Copa">
         2018
       </a>
+      <section>
+        <h2>Sorteo de entradas</h2>
+        <p>Contestá correctamente las preguntas y participá por 2 entradas para ver a River en el Monumental</p>
+        <form>
+          <fieldset>
+            <legend>Información</legend>
+            <label for="nombre">Nombre </label><input id="nombre" name="nombre" type="text" placeholder="Enzo Pérez" required>
+            <label for="edad">Edad </label><input id="edad" name="edad" type="number" min="3" max="99"  placeholder="18" required>
+            <label for="mail">E-mail </label><input id="mail" name="mail" type="email" placeholder="bostero_LTA@hotmail.com" required>
+          </fieldset>
+          <fieldset>
+            <legend>Trivia Riverplatense</legend>
+            <p>¿Contra que equipo se enfrentó River en la final?</p>
+            <input type="radio" name="final" id="peñarol" value="peñarol" required>
+            <label for="peñarol">Peñarol (Uruguay)</label>
+            <input type="radio" name="final" id="tigres" value="tigres" required>
+            <label for="tigres">Tigres (México)</label>
+            <input type="radio" name="final" id="Racing" value="racing" required>
+            <label for="racing">Racing Club</label>
+            <p>¿Quién fue el técnico en el torneo?</p>
+            <input type="radio" name="tecnico" id="labruna" value="labruna" required>
+            <label for="labruna"> Angel Labruna</label>
+            <input type="radio" name="tecnico" id="gallardo" value="gallardo" required>
+            <label for="gallardo">Marcelo Gallardo</label>
+            <input type="radio" name="tecnico" id="ramon" value="ramon" required>
+            <label for="ramon">Ramón Diaz</label>
+            <p>¿Quién fue el arquero de River en la final?</p>
+            <input type="radio" name="arq" id="barovero" value="barovero" required>
+            <label for="barovero">Marcelo Barovero</label>
+            <input type="radio" name="arq" id="armani" value="armani" required>
+            <label for="armani">Franco Armani</label>
+            <input type="radio" name="arq" id="lux" value="lux" required>
+            <label for="lux">Germán Lux</label> 
+          </fieldset>
+          <label for="terminos">Estoy de acuerdo con los <a href="xd">Términos y condiciones</a></label>
+          <input type="checkbox"  id="terminos" required>
+          <input type="submit" value="Enviar">
+
+        </form>
+      </section>
 
 
 
